@@ -1,8 +1,27 @@
-# React + Vite
+# API KEY
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+❗ Don't use other's API key.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ I made a [Images Gallery](https://symphonious-dango-da5070.netlify.app/) (Click on the link and check it ✔✅) using API from [api-ninja](https://api-ninjas.com/).
+
+
+
+ ## Follow these simple steps 👇
+
+
+- 1: Create an Account on [api-ninja](https://api-ninjas.com/)  🐱‍👤
+
+- 2: Take an API KEY. 
+
+- 3: make a file " .env.local " on main directory.
+
+- 4: Put API KEY like this if you are using react(vite).js:
+
+ VITE_JOKES = 'put-your-real-API KEY-to-here' 🔑
+
+- 5: Then go on that file, where you are using api key and paste this code:
+
+ const API = import.meta.env.VITE_JOKES 
+
+- this code is for react.(vite).js 👆
